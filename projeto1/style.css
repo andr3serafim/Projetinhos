@@ -12,6 +12,10 @@ header {
    margin: 5px 5px;
 }
 
+.menus {
+   margin: 10px;
+}
+
 .banner {
    border: 1px solid black;
    width: 75vw;

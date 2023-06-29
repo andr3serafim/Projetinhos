@@ -1,0 +1,221 @@
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.container_full {
+   width: 1147px;
+   max-width: 1147px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   border: 1px solid black;
+   width: 75vw;
+   height: 75px;
+   margin: 5px 5px;
+}
+
+.caixa {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 75vw;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.menus {
+   margin: 10px;
+   font-size: 1.1rem;
+}
+
+.container_2 {
+   display: flex;
+   flex-direction: row;
+   max-width: 75vw;
+}
+
+.imgs {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.8rem;
+   border: 1px solid black;
+   width: 11vw;
+   height: 8vh;
+   margin: 5px;
+}
+
+.caixa_2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 75vw;
+   height: 200px;
+   border: 1px solid black;
+}
+
+.subcaixa {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 80vw;
+   height: 175px;
+   margin-left: 10px;
+   margin-right: 10px;
+   border: 1px solid black;
+}
+
+.texto {
+   margin-bottom: 100px;
+   padding-right: 5px;
+}
+
+.container_3 {
+   display: flex;
+   flex-direction: row;
+   width: 75vw;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   column-gap: 1%;
+}
+
+.depoimentos_1 {
+   margin-top: 5px;
+   align-items: center;
+   width: 37.5vw;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-template-areas: "subcaixa1 subcaixa1 texto1 texto1"
+                        "subcaixa2 subcaixa2 texto2 texto2";
+   border: 1px solid black;
+   padding-left: 5px;
+}
+
+.depoimentos_2 {
+   align-items: center;
+   margin-top: 5px;
+   width: 37.5vw;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-template-areas: "texto3 texto3 subcaixa3 subcaixa3"
+                        "texto4 texto4 subcaixa4 subcaixa4";
+   border: 1px solid black;
+   padding-left: 5px;
+}
+
+.subcaixa_1 {
+   grid-area: subcaixa1;
+   width: 180px;
+   height: 100px;
+   border: 1px solid black;
+}
+
+.subcaixa_2 {
+   grid-area: subcaixa2;
+   width: 180px;
+   height: 100px;
+   border: 1px solid black;
+}
+ 
+.subcaixa_3 {
+   grid-area: subcaixa3;
+   width: 180px;
+   height: 100px;
+   border: 1px solid black;
+}
+
+.subcaixa_4 {
+   grid-area: subcaixa4;
+   width: 180px;
+   height: 100px;
+   border: 1px solid black;
+}
+
+.texto_1 {
+   grid-area: texto1;
+}
+
+.texto_2 {
+   grid-area: texto2;
+}
+
+.texto_3 {
+   grid-area: texto3;
+}
+
+.texto_4 {
+   grid-area: texto4;
+}
+
+.texto_5 {
+   grid-area: texto5;
+}
+.borda {
+   border-radius: 5px;
+}
+
+footer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: auto;
+   column-gap: 10px;
+   border: 1px solid black;
+   width: 75vw;
+   height: 180px;
+}
+
+.caixa_3 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-areas: "texto5 texto5 texto5 texto5 texto5"
+   "cx1 cx2 cx3 cx4 .";
+   padding-left: 10px;
+}
+
+.caixinha_1 {
+   grid-area: cx1;
+   width: 50px;
+   height: 50px;
+   border: 1px solid black;
+}
+
+.caixinha_2 {
+   grid-area: cx2;
+   width: 50px;
+   height: 50px;
+   border: 1px solid black;
+}
+
+.caixinha_3 {
+   grid-area: cx3;
+   width: 50px;
+   height: 50px;
+   border: 1px solid black;
+}
+
+.caixinha_4 {
+   grid-area: cx4;
+   width: 50px;
+   height: 50px;
+   border: 1px solid black;
+}
+
+.caixa_4 {
+   margin: auto;
+   width: 300px;
+   height: 150px;
+   border: 1px solid black;
+}
