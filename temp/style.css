@@ -1,0 +1,65 @@
+body {
+   font-family: Arial, sans-serif;
+}
+
+body.light-theme {
+   background-color: #ffffff;
+   color: #000000;
+}
+
+body.dark-theme {
+   background-color: #333;
+   color: #ffffff;
+}
+
+body {
+   font-family: Arial, sans-serif;
+}
+
+header {
+   background-color: #f8f9fa;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+nav ul li {
+   display: inline;
+   margin-right: 10px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #007bff;
+}
+
+#about {
+   margin-bottom: 20px;
+}
+
+#profile-pic {
+   height: 200px;
+   width: 200px;
+}
+
+#description {
+   margin-top: 20px;
+}
+
+#skills {
+   margin-bottom: 20px;
+}
+
+footer {
+   background-color: #f8f9fa;
+   text-align: center;
+   padding: 20px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
